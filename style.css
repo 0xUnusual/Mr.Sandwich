@@ -783,6 +783,13 @@ ul {
 
     .hero-buttons {
         flex-direction: column;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
     }
 
     .footer-content {
