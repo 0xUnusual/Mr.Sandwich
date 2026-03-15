@@ -85,13 +85,6 @@ document.addEventListener('DOMContentLoaded', () => {
         ease: 'power2.out'
     });
 
-    gsap.from('.floating-wa', {
-        scale: 0,
-        opacity: 0,
-        duration: 0.5,
-        delay: 2,
-        ease: 'back.out(1.7)'
-    });
 
 
     // --- Image Logic ---
